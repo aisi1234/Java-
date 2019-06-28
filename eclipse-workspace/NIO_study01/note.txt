@@ -1,0 +1,30 @@
+NIO(New IO):
+	与传统IO有相同的目的，都是用于输入/输出，但新IO使用了不同的方式来处理输入/输出，NIO采用**内存映射文件**的方式来处理输入/输出，
+NIO将文件或文件的一段区域映射到内存中，（模拟了操作系统虚拟内存的概念）。
+	Channel(通道)和Buffer(缓冲)是NIO的两个核心对象。
+	1.Channel是对传统的输入/输出系统的模拟，在新IO系统中所有的数据都是通过管道传输，它提供一个map()方法将“一块数据”映射带内存中，
+如果说传统的输入/输出系统是面向流的处理，则新IO是面向块的处理。Channel对象都是从传统的结点的getChannel()方法获取，常用的三类
+方法：map()、read()、write()
+	2.Buffer,可以被理解为容器，发送到Channel中的所有对象都必须首先放入Buffer中，而从Channel中读取的数据也必须放入到Buffer中。
+	在Buffer中有三个重要的概念：
+		- capacity：缓冲区的容量，表示Buffer的最大数据容量，创建后不能改变
+		- limit：界限，第一个不应该被读出或写入的缓冲区的位置索引。也就是说，位于limit之后的数据既不可读也不可写
+		- position：位置，用于指明下一个可以被读出或写入的缓冲区位置索引（类似于IO流中的记录指针）
+	除此之外还有一个mark,它们之间的关系：0<=mark<=position<=limit<=capacity
+	常用方法：
+		- static XxxxBuffer allocate(capacity):创建一个容量为capacity的XxxxBuffer对象
+		- flip():将limit设为position的值，将position的值设为0,。为从Buffer中取出数据做准备
+		- clear():将position值设为0，将limit设为capacity，但不清空Buffer的数据。为再次装入数据做准备
+		- int capacity():返回Buffer的capacity大小
+		- boolean hasRemaining():判断当前位置（position）和界限（limit）之间是否还有元素可处理
+		- int limit():返回Buffer的limit的值
+		- Buffer limit(int newLt):重新设置limit的值，并返回一分新的Buffer
+		- Buffer mark():设置Buffer的mark位置，它只能在0和position值之间取值
+		- int position():返回Buffer的position值
+		- Buffer position(int newPs):设置Buffer的position值，并返回新的Buffer
+		- int remaining():返回当前位置和界面之间的元素个数
+		- Buffer reset():将position转到mark的位置
+		- Buffer rewind():将position的值设为0，取消设置的mark
+	读取方式：
+		相对方式，从Buffer的当前position出开始读取或写入数据，然后将position的值按处理元素的个数相加
+		绝对方式，直接根据索引向Buffer中读出或写入数据，不影响position的值	

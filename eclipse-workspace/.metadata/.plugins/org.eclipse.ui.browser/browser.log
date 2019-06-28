@@ -1,0 +1,15 @@
+
+6月 18, 2019 20:27:58.51 NEW SESSION
+6月 18, 2019 20:27:58.51 [5392:12280:0618/202758.511:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+6月 18, 2019 21:16:45.98 [5392:8164:0618/211645.987:ERROR:browser_process_sub_thread.cc(217)] Waited 24 ms for network service
+
+6月 22, 2019 17:40:58.64 NEW SESSION
+6月 22, 2019 17:40:58.64 [15964:5952:0622/174058.646:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+6月 22, 2019 18:20:17.52 [15964:9772:0622/182017.526:ERROR:browser_process_sub_thread.cc(217)] Waited 54 ms for network service
+6月 22, 2019 18:20:59.03 [16564:16476:0622/182059.035:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+6月 22, 2019 18:21:27.91 [16564:2912:0622/182127.918:ERROR:browser_process_sub_thread.cc(217)] Waited 97 ms for network service
+6月 22, 2019 18:21:49.14 [17920:18040:0622/182149.146:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+6月 22, 2019 18:21:57.15 [17920:18048:0622/182157.151:ERROR:browser_process_sub_thread.cc(217)] Waited 120 ms for network service
+6月 22, 2019 18:22:09.77 [17736:14900:0622/182209.778:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+6月 22, 2019 18:22:14.37 [17736:2244:0622/182214.372:ERROR:browser_process_sub_thread.cc(217)] Waited 93 ms for network service
+6月 22, 2019 18:22:51.12 [18268:12072:0622/182251.128:ERROR:google_update_settings.cc(289)] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5

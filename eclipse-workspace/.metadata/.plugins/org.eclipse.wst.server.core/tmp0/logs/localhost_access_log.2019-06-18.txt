@@ -1,0 +1,5 @@
+127.0.0.1 - - [18/Jun/2019:20:27:57 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:20:28:02 +0800] "GET /MyJspProject/cookie/response_addCookie.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:20:28:02 +0800] "GET /MyJspProject/cookie/show.jsp HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:20:28:02 +0800] "GET /favicon.ico HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [18/Jun/2019:20:28:12 +0800] "GET /MyJspProject/cookie/show.jsp HTTP/1.1" 200 214

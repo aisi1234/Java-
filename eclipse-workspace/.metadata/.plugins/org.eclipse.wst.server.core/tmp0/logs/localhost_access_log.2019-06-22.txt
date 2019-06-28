@@ -1,0 +1,17 @@
+127.0.0.1 - - [22/Jun/2019:17:40:57 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:17:41:02 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 500 3890
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:17:41:03 +0800] "GET /favicon.ico HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:17:49:44 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 500 3908
+127.0.0.1 - - [22/Jun/2019:18:08:47 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:08:49 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 500 4001
+127.0.0.1 - - [22/Jun/2019:18:20:07 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:20:09 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 500 3951
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:21:02 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 200 245
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:21:02 +0800] "GET /favicon.ico HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:21:24 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 200 251
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:21:51 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 200 251
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:21:51 +0800] "GET /favicon.ico HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:22:11 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:22:11 +0800] "GET /favicon.ico HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:22:53 +0800] "GET /MyJspProject/mysqltest/sql.jsp HTTP/1.1" 500 7236
+0:0:0:0:0:0:0:1 - - [22/Jun/2019:18:22:54 +0800] "GET /favicon.ico HTTP/1.1" 404 1079

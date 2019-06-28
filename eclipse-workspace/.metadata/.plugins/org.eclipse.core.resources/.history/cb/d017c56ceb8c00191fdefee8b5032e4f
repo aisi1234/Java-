@@ -1,0 +1,6 @@
+import java.nio.CharBuffer;
+
+public class BufferTest {
+	public static void main(String[] args) {
+	}
+}

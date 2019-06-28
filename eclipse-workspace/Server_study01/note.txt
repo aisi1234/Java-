@@ -1,0 +1,11 @@
+HTTP协议
+	1.请求协议格式
+		①请求行：方法(GET/POST) URI 协议/版本
+		②请求头：(Request Header)
+		③请求正文
+	2.响应协议格式
+		①状态行：方法(GET/POST) 状态码  状态描述
+		②响应头：(Request Header)
+		③响应正文
+		
+反射(Reflection)：

@@ -1,0 +1,39 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import com.sun.org.apache.xml.internal.resolver.helpers.PublicId;
+
+public class Test {
+	public static void main(String[] args) throws Exception {
+		//"jdbc:mysql://localhost:3306/jdbc01?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";//链接的mysql
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("加载驱动成功");
+		String url = "jdbc:mysql://localhost:3306/mydbs?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";
+		String user = "root";
+		String password = "123456";
+		Connection conn = DriverManager.getConnection(url, user, password);
+		Statement statement = conn.createStatement();
+		String sql = "select * from departments";
+		ResultSet set = statement.executeQuery(sql);
+		while(set.next()){
+			System.out.print(set.getString("dept_no")+"\t");
+			System.out.println(set.getString("dept_name")+"\t");
+		}
+		
+		set.close();
+		statement.close();
+		conn.close();
+	}
+	
+	public static Connection getConnection() {
+		try {
+			Class.forName("com.mysql.cj.Driver");
+		} catch (ClassNotFoundException e) {
+			System.err.println("加载驱动失败");
+		}
+		return null;
+	}
+	
+}

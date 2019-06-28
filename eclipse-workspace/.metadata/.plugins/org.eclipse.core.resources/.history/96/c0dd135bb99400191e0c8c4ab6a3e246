@@ -1,0 +1,30 @@
+package unit_test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BeanTest {
+
+	@Test
+	void testGetShow() {
+//		fail("Not yet implemented");
+		
+	}
+
+	@Test
+	void testSetShow() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetParameter() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetParameter() {
+		fail("Not yet implemented");
+	}
+
+}

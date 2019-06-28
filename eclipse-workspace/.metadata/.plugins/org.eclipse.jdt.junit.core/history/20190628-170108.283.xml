@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BeanTest" project="Test" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="unit_test.BeanTest" time="0.032" displayname="BeanTest" uniqueid="[engine:junit-jupiter]/[class:unit_test.BeanTest]">
+    <testcase name="testGetParameter" classname="unit_test.BeanTest" time="0.017" displayname="testGetParameter()" uniqueid="[engine:junit-jupiter]/[class:unit_test.BeanTest]/[method:testGetParameter()]"/>
+    <testcase name="testGetShow" classname="unit_test.BeanTest" time="0.002" displayname="testGetShow()" uniqueid="[engine:junit-jupiter]/[class:unit_test.BeanTest]/[method:testGetShow()]"/>
+    <testcase name="testSetParameter" classname="unit_test.BeanTest" time="0.002" displayname="testSetParameter()" uniqueid="[engine:junit-jupiter]/[class:unit_test.BeanTest]/[method:testSetParameter()]"/>
+    <testcase name="testSetShow" classname="unit_test.BeanTest" time="0.011" displayname="testSetShow()" uniqueid="[engine:junit-jupiter]/[class:unit_test.BeanTest]/[method:testSetShow()]"/>
+  </testsuite>
+</testrun>

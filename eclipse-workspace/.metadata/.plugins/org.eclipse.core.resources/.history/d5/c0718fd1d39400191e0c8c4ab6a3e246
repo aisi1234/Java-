@@ -1,0 +1,22 @@
+
+public class Test {
+	public static void main(String[] args) {
+		Class.forName("com.mysql.jdbc.Driver");
+		System.out.print("加载驱动成功");
+		String url = "jdbc:mysql://localhost:3306/test";
+		String user = "root";
+		String password = "123456";
+		Connection conn = DriverManager.getConnection(url, user, password);
+		Statement statement = conn.createStatement();
+		String sql = "select * from departments";
+		ResultSet set = statement.executeQuery(sql);
+		while(set.next()){
+			out.write(set.getString("dpet_no")+"\t");
+			out.write(set.getString("dept_name")+"\t");
+		}
+		
+		set.close();
+		statement.close();
+		conn.close();
+	}
+}
